@@ -1,0 +1,85 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:../backend/data/ipl.db"
+}
+
+model Team {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  shortName   String
+  logoUrl     String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relationships
+  homeMatches Match[]  @relation("HomeTeam")
+  awayMatches Match[]  @relation("AwayTeam")
+  pointsTable PointsTable?
+
+  @@map("teams")
+}
+
+model Match {
+  id           String   @id @default(uuid())
+  matchNumber  Int
+  date         DateTime
+  time         String
+  venue        String
+  homeTeamId   String
+  awayTeamId   String
+  homeTeamScore String?
+  awayTeamScore String?
+  result       String?
+  status       String   @default("UPCOMING") // UPCOMING, LIVE, COMPLETED
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // Relationships
+  homeTeam     Team     @relation("HomeTeam", fields: [homeTeamId], references: [id])
+  awayTeam     Team     @relation("AwayTeam", fields: [awayTeamId], references: [id])
+
+  @@map("matches")
+}
+
+model PointsTable {
+  id           String   @id @default(uuid())
+  teamId       String   @unique
+  played       Int      @default(0)
+  won          Int      @default(0)
+  lost         Int      @default(0)
+  tied         Int      @default(0)
+  noResult     Int      @default(0)
+  points       Int      @default(0)
+  netRunRate   Float    @default(0)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // Relationships
+  team         Team     @relation(fields: [teamId], references: [id])
+
+  @@map("points_table")
+}
+
+model LiveMatch {
+  id           String   @id @default(uuid())
+  matchId      String?  @unique
+  status       String   
+  homeTeam     String   
+  awayTeam     String   
+  homeScore    String?  
+  awayScore    String?  
+  overs        String?  
+  currentBatsmen String? 
+  currentBowler String?
+  lastWicket   String?
+  recentOvers  String?
+  requiredRate String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("live_match")
+}

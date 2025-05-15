@@ -1,0 +1,270 @@
+{
+  "teams": [
+    {
+      "id": "1",
+      "name": "Mumbai Indians",
+      "shortName": "MI",
+      "logoUrl": "https://www.iplt20.com/teams/mumbai-indians"
+    },
+    {
+      "id": "2",
+      "name": "Chennai Super Kings",
+      "shortName": "CSK",
+      "logoUrl": "https://www.iplt20.com/teams/chennai-super-kings"
+    },
+    {
+      "id": "3",
+      "name": "Royal Challengers Bangalore",
+      "shortName": "RCB",
+      "logoUrl": "https://www.iplt20.com/teams/royal-challengers-bangalore"
+    },
+    {
+      "id": "4",
+      "name": "Kolkata Knight Riders",
+      "shortName": "KKR",
+      "logoUrl": "https://www.iplt20.com/teams/kolkata-knight-riders"
+    },
+    {
+      "id": "5",
+      "name": "Delhi Capitals",
+      "shortName": "DC",
+      "logoUrl": "https://www.iplt20.com/teams/delhi-capitals"
+    },
+    {
+      "id": "6",
+      "name": "Punjab Kings",
+      "shortName": "PBKS",
+      "logoUrl": "https://www.iplt20.com/teams/punjab-kings"
+    },
+    {
+      "id": "7",
+      "name": "Rajasthan Royals",
+      "shortName": "RR",
+      "logoUrl": "https://www.iplt20.com/teams/rajasthan-royals"
+    },
+    {
+      "id": "8",
+      "name": "Sunrisers Hyderabad",
+      "shortName": "SRH",
+      "logoUrl": "https://www.iplt20.com/teams/sunrisers-hyderabad"
+    },
+    {
+      "id": "9",
+      "name": "Lucknow Super Giants",
+      "shortName": "LSG",
+      "logoUrl": "https://www.iplt20.com/teams/lucknow-super-giants"
+    },
+    {
+      "id": "10",
+      "name": "Gujarat Titans",
+      "shortName": "GT",
+      "logoUrl": "https://www.iplt20.com/teams/gujarat-titans"
+    }
+  ],
+  "pointsTable": [
+    {
+      "id": "pt1",
+      "teamId": "4",
+      "played": 8,
+      "won": 7,
+      "lost": 1,
+      "tied": 0,
+      "noResult": 0,
+      "points": 14,
+      "netRunRate": 1.428
+    },
+    {
+      "id": "pt2",
+      "teamId": "7",
+      "played": 8,
+      "won": 6,
+      "lost": 2,
+      "tied": 0,
+      "noResult": 0,
+      "points": 12,
+      "netRunRate": 0.677
+    },
+    {
+      "id": "pt3",
+      "teamId": "2",
+      "played": 8,
+      "won": 5,
+      "lost": 3,
+      "tied": 0,
+      "noResult": 0,
+      "points": 10,
+      "netRunRate": 0.810
+    },
+    {
+      "id": "pt4",
+      "teamId": "8",
+      "played": 8,
+      "won": 5,
+      "lost": 3,
+      "tied": 0,
+      "noResult": 0,
+      "points": 10,
+      "netRunRate": 0.350
+    },
+    {
+      "id": "pt5",
+      "teamId": "9",
+      "played": 9,
+      "won": 4,
+      "lost": 5,
+      "tied": 0,
+      "noResult": 0,
+      "points": 8,
+      "netRunRate": 0.059
+    },
+    {
+      "id": "pt6",
+      "teamId": "5",
+      "played": 9,
+      "won": 4,
+      "lost": 5,
+      "tied": 0,
+      "noResult": 0,
+      "points": 8,
+      "netRunRate": -0.386
+    },
+    {
+      "id": "pt7",
+      "teamId": "10",
+      "played": 9,
+      "won": 4,
+      "lost": 5,
+      "tied": 0,
+      "noResult": 0,
+      "points": 8,
+      "netRunRate": -0.974
+    },
+    {
+      "id": "pt8",
+      "teamId": "6",
+      "played": 9,
+      "won": 3,
+      "lost": 6,
+      "tied": 0,
+      "noResult": 0,
+      "points": 6,
+      "netRunRate": -0.187
+    },
+    {
+      "id": "pt9",
+      "teamId": "3",
+      "played": 8,
+      "won": 2,
+      "lost": 6,
+      "tied": 0,
+      "noResult": 0,
+      "points": 4,
+      "netRunRate": -0.318
+    },
+    {
+      "id": "pt10",
+      "teamId": "1",
+      "played": 8,
+      "won": 2,
+      "lost": 6,
+      "tied": 0,
+      "noResult": 0,
+      "points": 4,
+      "netRunRate": -1.229
+    }
+  ],
+  "matches": [
+    {
+      "id": "m1",
+      "matchNumber": 1,
+      "date": "2025-03-22T15:30:00.000Z",
+      "time": "7:30 PM IST",
+      "venue": "M.A. Chidambaram Stadium, Chennai",
+      "homeTeamId": "2",
+      "awayTeamId": "3",
+      "homeTeamScore": "176/6 (20 overs)",
+      "awayTeamScore": "178/3 (19.2 overs)",
+      "result": "Royal Challengers Bangalore won by 7 wickets",
+      "status": "COMPLETED"
+    },
+    {
+      "id": "m2",
+      "matchNumber": 2,
+      "date": "2025-03-23T15:30:00.000Z",
+      "time": "7:30 PM IST",
+      "venue": "Wankhede Stadium, Mumbai",
+      "homeTeamId": "1",
+      "awayTeamId": "4",
+      "homeTeamScore": "159/9 (20 overs)",
+      "awayTeamScore": "162/5 (16.3 overs)",
+      "result": "Kolkata Knight Riders won by 5 wickets",
+      "status": "COMPLETED"
+    },
+    {
+      "id": "m3",
+      "matchNumber": 3,
+      "date": "2025-03-24T15:30:00.000Z",
+      "time": "7:30 PM IST",
+      "venue": "Rajiv Gandhi International Stadium, Hyderabad",
+      "homeTeamId": "8",
+      "awayTeamId": "5",
+      "status": "LIVE"
+    },
+    {
+      "id": "m4",
+      "matchNumber": 4,
+      "date": "2025-03-25T15:30:00.000Z",
+      "time": "7:30 PM IST",
+      "venue": "Narendra Modi Stadium, Ahmedabad",
+      "homeTeamId": "10",
+      "awayTeamId": "9",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "m5",
+      "matchNumber": 5,
+      "date": "2025-03-26T15:30:00.000Z",
+      "time": "7:30 PM IST",
+      "venue": "Arun Jaitley Stadium, Delhi",
+      "homeTeamId": "5",
+      "awayTeamId": "6",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "m6",
+      "matchNumber": 6,
+      "date": "2025-03-27T15:30:00.000Z",
+      "time": "7:30 PM IST",
+      "venue": "M.A. Chidambaram Stadium, Chennai",
+      "homeTeamId": "2",
+      "awayTeamId": "10",
+      "status": "UPCOMING"
+    },
+    {
+      "id": "m7",
+      "matchNumber": 7,
+      "date": "2025-03-28T15:30:00.000Z",
+      "time": "7:30 PM IST",
+      "venue": "Eden Gardens, Kolkata",
+      "homeTeamId": "4",
+      "awayTeamId": "8",
+      "status": "UPCOMING"
+    }
+  ],
+  "liveMatch": {
+    "id": "lm1",
+    "matchId": "m3",
+    "status": "LIVE",
+    "homeTeam": "Sunrisers Hyderabad",
+    "awayTeam": "Delhi Capitals",
+    "homeScore": "145/3",
+    "awayScore": "",
+    "overs": "16.2",
+    "currentBatsmen": "K Williamson 62*, A Samad 21*",
+    "currentBowler": "A Nortje 3-0-28-1",
+    "lastWicket": "Rahul Tripathi c Pant b Nortje 39 (31)",
+    "recentOvers": "1 4 0 2 1 | 0 1 0 4 1 W",
+    "requiredRate": "N/A",
+    "venue": "Rajiv Gandhi International Stadium, Hyderabad"
+  }
+}
